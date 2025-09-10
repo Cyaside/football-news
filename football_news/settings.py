@@ -32,7 +32,9 @@ DEBUG = True # tdinya True
 
 ALLOWED_HOSTS = ["localhost", "127.0.0.1","tristan-rasheed-footballnews.pbp.cs.ui.ac.id"]
 CSRF_TRUSTED_ORIGINS = [
-    "https://tristan-rasheed-footballnews.pbp.cs.ui.ac.id"
+    "https://tristan-rasheed-footballnews.pbp.cs.ui.ac.id",
+    "http://localhost",
+    "http://127.0.0.1",
 ]
 
 # Application definition
